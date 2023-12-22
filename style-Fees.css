@@ -1,0 +1,97 @@
+.section-main{
+    width: 100%;
+}
+
+.section-main-fees .h1{
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+/* section prices */
+.background-section-prices{
+    background-image: url(./img/background-section3.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-prices{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;   
+}
+
+.section-prices .price-cards{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 15px;
+
+    
+}
+.section-prices .price-cards h2{
+    font-size: 36px;
+    margin: 20px 0;
+}
+.section-prices .price-cards h2 span{
+    font-size: 36px;
+    color: #4268d2;
+}
+.section-prices .price-cards h3{
+    font-size: 22px;
+    font-weight: 300;
+    color: #142349;
+    margin: 10px 10px 10px;
+}
+.section-prices .price-cards .price-card{
+    display: flex;
+    align-items: center;
+}
+.section-prices .price-cards .price-card span{
+    margin: 10px;
+    color: #4268d2;
+    font-size: 22px;
+}
+.section-prices .price-cards .price-card .hr{
+    border: 1px solid #4268d2;
+    flex-grow: 1;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    margin: 10px;
+}
+.over-section button{
+    transition: 500ms;
+}
+.over-section button:hover {
+    transform: translate(0px, -10px);
+}
+
+@media screen and (max-width:767px) {
+    .section-prices .price-cards {
+        padding: 10px;
+        margin: 10px;
+    }
+    .section-main-fees h1, .section-main-fees h1 span{
+        font-size: 38px;
+    }
+    .section-main-fees p{
+        font-size: 16px;
+    }
+    .section-prices .price-cards h2, .section-prices .price-cards h2 span{
+        font-size: 24px;
+    }
+    .section-prices .price-card h3, .section-prices .price-cards .price-card span{
+        font-size: 16px;
+    }
+    .over-section h2 , .over-section h2 span{
+        font-size: 38px;
+    }
+    .over-section p{
+        font-size: 16px;
+    }
+    
+}
