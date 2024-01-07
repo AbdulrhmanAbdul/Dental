@@ -46,10 +46,33 @@
                     <li class="d-none d-xl-block"><a href="./shop.html">Shop</a></li>
                     <li class="d-none d-xl-block"><a href="./contactUs.html">Contact US</a></li>
                     <li class="d-none d-xl-block"><a href="./Dental-Blog.html">Dental Blog</a></li>
-                    <button class="emergency-btn d-none d-xl-block"><a href="./contactUs.html">Emeregency
-                            Call</a></button>
-                    <div class="icon"><a class="d-xl-none" href="#"><i class="fa-solid fa-bars fa-2xl"></i></a></div>
+                    <a href="./contactUs.html"><button class="emergency-btn d-none d-xl-block">Emeregency
+                            Call</button></a>
+                    <div id="icon" class="icon action_btn" data-bs-toggle="button" onclick="openNav()">
+                        <a class="d-xl-none"><i class="fa-solid fa-bars fa-2xl"></i></a>
+                    </div>
                 </ul>
+                <div id="responsive-nav">
+                    <div class="header-responsive">
+                        <a href="./index.html"><img src="./img/logo-dantal.png"></a>
+                        <div class="icon action_btn " data-bs-toggle="button" onclick="closeNav()">
+                            <a class=""><i class="fa-solid fa-grip-lines fa-2xl"></i></a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about-center.html">About Center</a></li>
+                        <li><a href="./Treatments.html">Treatments</a></li>
+                        <li><a href="./fees.html">Fees</a></li>
+                        <li><a href="./medical-team.html">Medical Team</a></li>
+                        <li><a href="./shop.html">Shop</a></li>
+                        <li><a href="./contactUs.html">Contact US</a></li>
+                        <li><a href="./Dental-Blog.html">Dental Blog</a></li>
+                        <a href="./contactUs.html" style="width: 100%;"><button class="emergency-btn"
+                                style="width: 100%;">Emeregency
+                                Call</button></a>
+                    </ul>
+                </div>
             </nav>
         </header>
         <main class="section-main-fees wow animate__animated animate__fadeIn">
@@ -186,6 +209,7 @@
         new WOW().init();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="java.js"></script>
 </body>
 
 </html>
